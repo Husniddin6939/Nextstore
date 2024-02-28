@@ -2,3 +2,153 @@
     height: 500px;
     padding-top: 130px;
 }
+
+#intro .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1230px;
+    height: 424px;
+    margin: 40px 62px;
+    
+}
+
+#intro .wrapper .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#intro .wrapper .card{
+    width: 135px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1E1E1E;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+}
+
+#intro .wrapper .card {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 539;
+    padding-top: 3px;
+}
+
+#intro .wrapper button{
+    height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 591;
+    color: #1E1E1E;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+#intro .container1 {
+    width: 1240px;
+    height: 1000px;
+    margin: 40px 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#intro .container1 h1{
+    color: #1E1E1E;
+    font-size: 28px;
+    font-weight: 591;
+    padding-bottom: 20px;
+    
+}
+
+#intro .container1 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 21px;
+}
+
+#intro .container1 .card{
+    width: 230px;
+    height: 390px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#intro .container1 .card h2{
+    color: #0D63F3;
+    font-size: 18px;
+    font-weight: 591;
+    padding-bottom: 6px;
+}
+
+#intro .container1 .card h5{
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 539;
+    padding-bottom: 33px;
+}
+
+#intro .container1 .card p{
+    color: #6C757D;
+    font-size: 14px;
+    font-weight: 539;
+    padding-bottom: 25px;
+
+}
+
+#intro .container1 .card button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0D63F3;
+    font-size: 16px;
+    font-weight: 539;
+    color: #FFFFFF;
+}
+
+#intro .container1 .card .bx-heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    color: #ECDDEC;
+}
+
+#intro .container1 .card .bx-cart{
+    position: absolute;
+    bottom: 53px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    color: #6C757D;
+}
+
+#intro .container1 .card-down{
+    width: 1230px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-top: 37px;
+    margin-bottom: 10px;
+    display: grid;
+    place-content: center;
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 591;
+}
+
+#intro  .secondswiper{
+   margin: 0 270px;
+   width: 1354px;
+   height: 266px;
+}
